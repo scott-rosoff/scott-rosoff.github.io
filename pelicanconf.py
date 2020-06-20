@@ -31,7 +31,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/scott-rosoff-133246155/'),
-          ('github', 'https://github.com/scott-rosoff'),)
+          ('github', 'https://github.com/scott-rosoff'),
+		  ('envelope','mailto:scrosoff@gmail.com')
+		  )
 
 AUTHORS_BIO = {
   "scott": {
