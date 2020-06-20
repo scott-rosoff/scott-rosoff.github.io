@@ -11,7 +11,7 @@ PATH = 'content'
 TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = 'English'
-THEME = "attila"
+THEME = "notmyidea"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
