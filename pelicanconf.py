@@ -11,6 +11,7 @@ PATH = 'content'
 TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = 'English'
+THEME = "attila"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -28,10 +29,18 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
  '''
 
 # Social widget
-'''
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-'''
+
+SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/scott-rosoff-133246155/'),
+          ('github', 'https://github.com/scott-rosoff'),)
+
+AUTHORS_BIO = {
+  "scott": {
+    "cover": "/content/images/profile_pic.jpg",
+	"location": "Seattle",
+	"bio" : "This is my bio...to fill in"
+  }
+}
+
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
