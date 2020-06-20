@@ -7,7 +7,7 @@ SITENAME = 'scott-rosoff'
 SITEURL = ''
 
 PATH = 'content'
-
+STATIC_PATHS = ['images']
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'English'
