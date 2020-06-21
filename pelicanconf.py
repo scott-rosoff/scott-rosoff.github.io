@@ -34,7 +34,7 @@ EXTRA_PATH_METADATA = {
 # tell the custom theme where to find the custom.css file in your output folder
 CUSTOM_CSS = 'static/my_styles.css'
 
-CSS_OVERRIDE = ['content/css/my_styles.css']
+CSS_OVERRIDE = ['../css/my_styles.css']
 '''
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
