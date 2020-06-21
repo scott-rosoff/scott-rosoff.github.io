@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Scott Rosoff'
 SITENAME = 'scott-rosoff'
-SITEURL = '.'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -22,7 +22,19 @@ AUTHOR_FEED_RSS = None
 
 PLUGIN_PATH = 'plugins/pelican-plugins'
 PLUGINS = ['pelican_javascript']
-CSS_OVERRIDE = ['content/css/my_styles.css']
+
+# tell pelican where your custom.css file is in your content folder
+STATIC_PATHS = ['content/css/my_styles.css']
+
+# tell pelican where it should copy that file to in your output folder
+EXTRA_PATH_METADATA = {
+'content/css/my_styles.css': {'path': 'static/my_styles.css'}
+}
+
+# tell the custom theme where to find the custom.css file in your output folder
+CUSTOM_CSS = 'static/my_styles.css'
+
+#CSS_OVERRIDE = ['content/css/my_styles.css']
 '''
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
