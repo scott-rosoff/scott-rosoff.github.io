@@ -1,15 +1,15 @@
-img {
-  display: block;
-  max-width:100px;
-  max-height:100px;
-  width: auto;
-  height: auto;
-}
+/* img { */
+  /* display: block; */
+  /* max-width:100px; */
+  /* max-height:100px; */
+  /* width: auto; */
+  /* height: auto; */
+/* } */
 
-p {
-  font-size: 100px;
-}
+/* p { */
+  /* font-size: 100px; */
+/* } */
 
-body {
-  color: red;
-}
+/* body { */
+  /* color: red; */
+/* } */
