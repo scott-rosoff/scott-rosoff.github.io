@@ -13,13 +13,11 @@ CSS: my_styles.css
 <body>
 
 <p>
-This is a test pt2.
+This is a test pt3.
 </p>
 
-		<div class = "pic"> 
-                <p id="my-image"><img src= "../images/profile_pic.jpg">
-            </p> 
-        </div> 
+
+<img src= "../images/profile_pic.jpg">
 
 
 </body>
