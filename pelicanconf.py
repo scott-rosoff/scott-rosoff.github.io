@@ -22,7 +22,7 @@ AUTHOR_FEED_RSS = None
 
 PLUGIN_PATH = 'plugins/pelican-plugins'
 PLUGINS = ['pelican_javascript']
-CSS_OVERRIDE = ['/content/css/my_styles.css']
+CSS_OVERRIDE = ['content/css/my_styles.css']
 '''
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
