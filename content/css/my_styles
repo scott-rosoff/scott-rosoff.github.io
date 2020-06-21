@@ -9,3 +9,7 @@ img {
 p {
   font-size: 100px;
 }
+
+body {
+  color: red;
+}
