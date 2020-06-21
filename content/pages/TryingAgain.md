@@ -12,14 +12,15 @@ CSS: my_styles.css
 
 <body>
 
-This is a test.
-
 <p>
+This is a test.
+</p>
+
 		<div class = "img"> 
                 <p id="my-image"><img src= "../images/profile_pic.jpg">
             </p> 
         </div> 
-</p>
+
 
 </body>
 </html>
