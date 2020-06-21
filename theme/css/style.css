@@ -783,10 +783,13 @@ table td:after {
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 2.5em auto
+    /* display: block; */
+    /* max-width: 100%; */
+    /* height: auto; */
+    /* margin: 2.5em auto */
+	width:100px;
+	height:100px;
+	border-radius: 50%;
 }
 
 .clear {
