@@ -1,15 +1,13 @@
-/* img { */
-  /* display: block; */
-  /* max-width:100px; */
-  /* max-height:100px; */
-  /* width: auto; */
-  /* height: auto; */
-/* } */
+img {
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+}
 
-/* p { */
-  /* font-size: 100px; */
-/* } */
+p {
+  font-size: 100px;
+}
 
-/* body { */
-  /* color: red; */
-/* } */
+body {
+  color: red;
+}
