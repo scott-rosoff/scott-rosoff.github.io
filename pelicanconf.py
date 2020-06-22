@@ -11,7 +11,7 @@ PATH = 'content'
 TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = 'English'
-THEME = "attila"
+THEME = "C:/Users/rosof/scott-rosoff.github.io/pelican-themes/pelican-bootstrap3"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -21,7 +21,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 PLUGIN_PATH = 'plugins/pelican-plugins'
-PLUGINS = ['pelican_javascript']
+PLUGINS = ['pelican_javascript', 'i18n_subsites']
 
 # tell pelican where your custom.css file is in your content folder
 STATIC_PATHS = ['css/my_styles.css']
@@ -35,6 +35,8 @@ EXTRA_PATH_METADATA = {
 CUSTOM_CSS = 'static/my_styles.css'
 
 CSS_OVERRIDE = ['static/my_styles.css']
+
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
