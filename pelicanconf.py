@@ -23,6 +23,8 @@ AUTHOR_FEED_RSS = None
 PLUGIN_PATH = 'plugins/pelican-plugins'
 PLUGINS = ['pelican_javascript', 'i18n_subsites']
 
+BANNER = 'images/banner.jpg'
+
 '''
 # tell pelican where your custom.css file is in your content folder
 STATIC_PATHS = ['css/my_styles.css']
