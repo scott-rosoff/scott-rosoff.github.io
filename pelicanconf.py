@@ -39,11 +39,12 @@ CSS_OVERRIDE = ['static/my_styles.css']
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 # Blogroll
+'''
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
- 
+ '''
 
 # Social widget
 
