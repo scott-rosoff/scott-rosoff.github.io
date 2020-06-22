@@ -176,7 +176,6 @@ figure.floatcenter, .align-center {
     background-repeat: no-repeat;
     /* background-position: top center; */
 	background-position: center bottom;
-
     background-attachment: scroll;
     background-size: cover;
     background-color: #C4C4C4;
@@ -203,7 +202,7 @@ figure.floatcenter, .align-center {
     font-weight: 700;
     line-height: 0.9;
     margin: 0;
-    text-transform: uppercase;
+    text-transform: initial;
 }
 #banner .intro {
     color: #fff;
