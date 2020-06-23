@@ -69,7 +69,7 @@ AUTHORS_BIO = {
 GITHUB_USER = "scott-rosoff"
 
 # custom bootstrap-compatible theme
-BOOTSTRAP_THEME = ["min"]
+BOOTSTRAP_THEME = ["minty"]
 
 DEFAULT_PAGINATION = False
 
