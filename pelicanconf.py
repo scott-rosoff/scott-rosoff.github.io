@@ -65,6 +65,12 @@ AUTHORS_BIO = {
   }
 }
 
+# to show repos directly in website
+GITHUB_USER = "scott-rosoff"
+
+# custom bootstrap-compatible theme
+BOOTSTRAP_THEME = ["min"]
+
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
