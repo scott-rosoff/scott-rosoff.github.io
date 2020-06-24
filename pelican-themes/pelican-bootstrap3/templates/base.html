@@ -146,6 +146,8 @@
                          <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">
                              {{ p.menulabel|default(p.title) }}
                           </a></li>
+						  <!-- Adding in custom link for Resume on navigation bar -->
+						  <li><a href="../files/Resume_WebsiteCopy.pdf" target="_blank">Resume</a> </li>
                         {% endif %}
                       {% endfor %}
                 {% endif %}
